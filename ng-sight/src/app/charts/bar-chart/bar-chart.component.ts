@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 const SAMPLE_BARCHART_DATA: any[]=[
-  { data:[65,15,34,73,92,42,30],labels:'Q3 Sales' },
-  { data:[25,36,49,53,83,13,60],labels:'Q4 Sales' }
+  { data:[65,15,34,73,92,42,30],label:'Q3 Sales' },
+  { data:[25,36,49,53,83,13,60],label:'Q4 Sales' }
 ];
 
 const SAMPLE_BARCHART_LABELS:string[]=['W1','W2','W3','W4','W5','W6','W7'];
