@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Order } from '../../shared/order';
+import { orders } from '../../shared/orders';
 
 @Component({
   selector: 'app-section-orders',
@@ -8,6 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class SectionOrdersComponent implements OnInit {
 
   constructor() { }
+
+  orders:Order[]=orders;
 
   ngOnInit(): void {
   }

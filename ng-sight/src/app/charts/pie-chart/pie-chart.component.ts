@@ -19,7 +19,7 @@ export class PieChartComponent implements OnInit {
   constructor() { }
   public barChartData: any[] = SAMPLE_BARCHART_DATA;
   public barChartLabels: string[] = SAMPLE_BARCHART_LABELS;
-  public colors:any[] = SAMPLE_BARCHART_COLORS;
+  public barChartColors:any[] = SAMPLE_BARCHART_COLORS;
   public barChartType = 'doughnut';
   ngOnInit(): void {
   }
