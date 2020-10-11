@@ -23,7 +23,6 @@ export class LineChartComponent implements OnInit {
   public lineChartLabels: string[] = SAMPLE_LINECHART_LABELS;
   public lineChartColors = SAMPLE_LINECHART_COLORS;
   public lineChartType = 'line';
-  public lineChartLegend = true;
   public lineChartOptions: any = {
     scaleShowVerticalLines: false,
     responsive: true

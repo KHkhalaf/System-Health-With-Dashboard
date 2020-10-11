@@ -1,4 +1,4 @@
-import { Order } from './order';
+import { Order } from './Order';
 
 export const orders:Order[]=[
     { id:1, 
