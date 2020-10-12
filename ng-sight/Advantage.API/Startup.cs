@@ -27,12 +27,13 @@ namespace Advantage.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers(options => options.EnableEndpointRouting = false);
+            services.AddMvc();
+
             services.AddDbContext<ApiContext>(Options =>
             {
                 Options.UseSqlServer(Configuration.GetConnectionString("NGsightDB"));
             });
-            
             services.AddTransient<DataSeed>();
         }
 
@@ -48,16 +49,9 @@ namespace Advantage.API
             var nOrders = 1000;
             seeder.SeedData(nCustomers, nOrders);
 
-            app.UseHttpsRedirection();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            app.UseMvc(routes =>
+                routes.MapRoute("default", "api/{controller}/{action}/{id?}")
+            );
         }
     }
 }
