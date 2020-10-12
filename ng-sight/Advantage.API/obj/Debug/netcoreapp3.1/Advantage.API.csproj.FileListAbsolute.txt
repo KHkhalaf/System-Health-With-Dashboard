@@ -31,3 +31,5 @@ G:\courses\ASP.Net\Angular\ASP.NET Core + Angular NEW SERIES\System Health With 
 G:\courses\ASP.Net\Angular\ASP.NET Core + Angular NEW SERIES\System Health With Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.dll
 G:\courses\ASP.Net\Angular\ASP.NET Core + Angular NEW SERIES\System Health With Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.pdb
 G:\courses\ASP.Net\Angular\ASP.NET Core + Angular NEW SERIES\System Health With Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.genruntimeconfig.cache
+G:\courses\ASP.Net\Angular\ASP.NET Core + Angular NEW SERIES\System Health With Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+G:\courses\ASP.Net\Angular\ASP.NET Core + Angular NEW SERIES\System Health With Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

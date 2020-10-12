@@ -27,6 +27,15 @@ namespace Advantage.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(opt =>
+                {
+                    opt.AddPolicy("CorsPolicy",
+                        b => b.AllowAnyOrigin()
+                              .AllowAnyMethod()
+                              .AllowAnyHeader());
+                }
+            );
+
             services.AddControllers(options => options.EnableEndpointRouting = false);
             services.AddMvc();
 
@@ -45,6 +54,7 @@ namespace Advantage.API
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("CorsPolicy");
             var nCustomers = 20;
             var nOrders = 1000;
             seeder.SeedData(nCustomers, nOrders);
