@@ -18,7 +18,7 @@ export class ServerService {
 
   getServers(): Observable<Server[]> {
     return this._http.get('https://localhost:5001/api/server').pipe(
-        map((response: any) => response.json())).pipe(catchError(this.handleError));
+        map((response: any) => response.json)).pipe(catchError(this.handleError));
   }
 
   handleError(error: any) {
@@ -35,7 +35,7 @@ export class ServerService {
         .append('Accept', 'q=0.8;application/json;q=0.9')
       }
     const url = 'https://localhost:5001/api/server/' + msg.id;
-    return this._http.put(url, msg, options).pipe(map((response: any) => response.json()));
+    return this._http.put(url, msg, options).pipe(map((response: any) => response.json));
   }
 
 }

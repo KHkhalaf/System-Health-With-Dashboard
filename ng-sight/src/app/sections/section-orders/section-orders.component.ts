@@ -24,12 +24,11 @@ export class SectionOrdersComponent implements OnInit {
 
   async getOrders() {
     this._salesData.getOrders(this.page, this.limit);
-    while(SalesDataService.root ==  undefined) 
-      await this.delay(100);
-    this.orders = SalesDataService.root.page.data;
-    this.total = SalesDataService.root.page.total;
+    while(this._salesData.root ==  undefined) 
+      await this._salesData.delay(100);
+    this.orders = this._salesData.root.page.data;
+    this.total = this._salesData.root.page.total;
     this.loading = false;
-    console.log(SalesDataService.root);
   }
   goToPrevious(): void {
     this.page--;
@@ -44,8 +43,5 @@ export class SectionOrdersComponent implements OnInit {
   goToPage(n: number): void {
     this.page = n;
     this.getOrders();
-  }
-  delay(ms: number) {
-    return new Promise(resolve => setTimeout(resolve, ms));
   }
 }

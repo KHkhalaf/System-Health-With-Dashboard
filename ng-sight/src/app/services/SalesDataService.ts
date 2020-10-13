@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient ,HttpHeaders} from '@angular/common/http';
 import 'rxjs/Rx';import 'rxjs/add/operator/map';
-import { catchError, map } from 'rxjs/operators';
+import {  map } from 'rxjs/operators';
 import 'rxjs/add/operator/catch';
 import { Observable } from 'rxjs';
 import { Root } from '../shared/Root';
@@ -10,11 +10,11 @@ import { Root } from '../shared/Root';
 export class SalesDataService {
 
   constructor(private _http: HttpClient) { }
-  static root:Root;
+  root:Root;
   getOrders(pageIndex: number, pageSize: number) { 
     this._http.get('https://localhost:5001/api/order/' + pageIndex + '/' + pageSize).toPromise().then(
      res=>{
-      SalesDataService.root = res as Root;
+      this.root = res as Root;
     }
   );
   }
@@ -27,5 +27,9 @@ export class SalesDataService {
   getOrdersByState() {
     return this._http.get('https://localhost:5001/api/order/bystate/').pipe(
         map((response: any) => response.json));
+  }
+  
+  delay(ms: number) {
+    return new Promise(resolve => setTimeout(resolve, ms));
   }
 }
