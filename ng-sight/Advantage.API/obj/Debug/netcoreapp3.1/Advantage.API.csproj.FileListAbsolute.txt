@@ -33,3 +33,44 @@ G:\courses\ASP.Net\Angular\ASP.NET Core + Angular NEW SERIES\System Health With 
 G:\courses\ASP.Net\Angular\ASP.NET Core + Angular NEW SERIES\System Health With Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.genruntimeconfig.cache
 G:\courses\ASP.Net\Angular\ASP.NET Core + Angular NEW SERIES\System Health With Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 G:\courses\ASP.Net\Angular\ASP.NET Core + Angular NEW SERIES\System Health With Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Advantage.API.StaticWebAssets.xml
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Advantage.API.exe
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Advantage.API.deps.json
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Advantage.API.runtimeconfig.json
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Advantage.API.runtimeconfig.dev.json
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Advantage.API.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Advantage.API.pdb
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.AssemblyInfo.cs
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.sourcelink.json
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.RazorTargetAssemblyInfo.cache
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\staticwebassets\Advantage.API.StaticWebAssets.Manifest.cache
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\staticwebassets\Advantage.API.StaticWebAssets.Pack.cache
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Advantage.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Advantage.API.props
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Advantage.API.props
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Advantage.API.props
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantag.85098F28.Up2Date
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.dll
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.pdb
+C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.genruntimeconfig.cache

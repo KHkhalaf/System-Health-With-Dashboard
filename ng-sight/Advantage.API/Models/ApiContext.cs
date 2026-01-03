@@ -9,5 +9,6 @@ namespace Advantage.API.Models
         public DbSet<Customer> customers{get; set;}
         public DbSet<Order> orders{get; set;}
         public DbSet<Server> Servers{get; set;}
+        public DbSet<Delivery> deliveries{get; set;}
     }
 }

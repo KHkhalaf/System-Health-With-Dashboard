@@ -1,37 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "G:\\courses\\ASP.Net\\Angular\\ASP.NET Core + Angular NEW SERIES\\System Health With Dashboard\\ng-sight\\Advantage.API\\Advantage.API.csproj": {}
+    "C:\\Users\\USER\\source\\repos\\System-Health-With-Dashboard\\ng-sight\\Advantage.API\\Advantage.API.csproj": {}
   },
   "projects": {
-    "G:\\courses\\ASP.Net\\Angular\\ASP.NET Core + Angular NEW SERIES\\System Health With Dashboard\\ng-sight\\Advantage.API\\Advantage.API.csproj": {
+    "C:\\Users\\USER\\source\\repos\\System-Health-With-Dashboard\\ng-sight\\Advantage.API\\Advantage.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\courses\\ASP.Net\\Angular\\ASP.NET Core + Angular NEW SERIES\\System Health With Dashboard\\ng-sight\\Advantage.API\\Advantage.API.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\System-Health-With-Dashboard\\ng-sight\\Advantage.API\\Advantage.API.csproj",
         "projectName": "Advantage.API",
-        "projectPath": "G:\\courses\\ASP.Net\\Angular\\ASP.NET Core + Angular NEW SERIES\\System Health With Dashboard\\ng-sight\\Advantage.API\\Advantage.API.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "G:\\courses\\ASP.Net\\Angular\\ASP.NET Core + Angular NEW SERIES\\System Health With Dashboard\\ng-sight\\Advantage.API\\obj\\",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\System-Health-With-Dashboard\\ng-sight\\Advantage.API\\Advantage.API.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\System-Health-With-Dashboard\\ng-sight\\Advantage.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -39,10 +38,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
@@ -67,7 +73,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

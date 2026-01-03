@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Advantage.API
+build_property.ProjectDir = C:\Users\USER\source\repos\System-Health-With-Dashboard\ng-sight\Advantage.API\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

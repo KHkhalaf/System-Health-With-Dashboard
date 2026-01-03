@@ -22,16 +22,7 @@ namespace Advantage.API.Controllers
             var data = _ctx.customers.OrderBy(c => c.Id);
             var page = new PaginatedResponse<Customer>(data, pageIndex, pageSize);
 
-            var totalCount = data.Count();
-            var totalPages = Math.Ceiling((double)totalCount / pageSize);
-
-            var response = new
-            {
-                Page = page,
-                TotalPages = totalPages
-            };
-
-            return Ok(response);
+            return Ok(page);
         }
 
         // GET api/values/5
